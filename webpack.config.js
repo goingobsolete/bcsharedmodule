@@ -19,6 +19,16 @@ module.exports = {
             presets: ['@babel/preset-env'] // Use @babel/preset-env for ES6 features
           }
         }
+      },
+      {
+        test: /\.(ttf|woff|woff2|eot|svg|png|jpg|jpeg|gif)$/, // Apply this rule to font and image files
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'assets/' // Place processed files in the 'assets/' directory within the output directory
+          }
+        }
       }
     ]
   },
