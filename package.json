@@ -1,5 +1,5 @@
 {
-  "name": "shared-module",
+  "name": "bc-shared-data-module",
   "version": "1.0.0",
   "description": "A shared module for fonts and other data",
   "main": "dist/sharedData.js",
