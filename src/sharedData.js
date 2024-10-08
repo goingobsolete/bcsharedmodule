@@ -16,4 +16,17 @@ import testCityList from "src/jsons/testArray.json";
 
 
  //define objects to hold assets
- 
+ export const fonts = {
+    sign: CarlsonDisplay,
+    reg: CarlsonReg,
+    bold: CarlsonBold,
+    italic: CarlsonItalic
+};
+
+export const images = {
+    bg: bgPage
+};
+
+export const jsons = {
+    testCityList: testCityList
+};
