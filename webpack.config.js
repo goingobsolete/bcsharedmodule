@@ -29,6 +29,13 @@ module.exports = {
             outputPath: 'assets/' // Place processed files in the 'assets/' directory within the output directory
           }
         }
+      },
+      {
+        test: /\.json$/, // Apply this rule to JSON files
+        type: 'javascript/auto',
+        use: {
+          loader: 'json-loader'
+        }
       }
     ]
   },
