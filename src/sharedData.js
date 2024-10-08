@@ -1,9 +1,9 @@
 
 //import Font Files
-import CaslonDisplay from "src/fonts/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf";
-import CaslonReg from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf";
-import CaslonBold from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf";
-import CaslonItalic from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Italic.ttf";
+import caslonDisplay from "src/fonts/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf";
+import caslonReg from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf";
+import caslonBold from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf";
+import caslonItalic from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Italic.ttf";
 
 //import Image Files
 import bgPage from "src/images/pagetexture_cleaned.png";
@@ -17,10 +17,10 @@ import testCityList from "src/jsons/testArray.json";
 
  //define objects to hold assets
  export const fonts = {
-    sign: CarlsonDisplay,
-    reg: CarlsonReg,
-    bold: CarlsonBold,
-    italic: CarlsonItalic
+    sign: caslonDisplay,
+    reg: caslonReg,
+    bold: caslonBold,
+    italic: caslonItalic
 };
 
 export const images = {
