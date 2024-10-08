@@ -1,32 +1,31 @@
+// src/sharedData.js
 
-//import Font Files
-import caslonDisplay from "src/fonts/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf";
-import caslonReg from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf";
-import caslonBold from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf";
-import caslonItalic from "src/fonts/Libre_Caslon_Text/LibreCaslonText-Italic.ttf";
+// Import font files
+import LibreCaslonDisplayRegular from './fonts/Libre_Caslon_Display/LibreCaslonDisplay-Regular.ttf';
+import LibreCaslonTextRegular from './fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf';
+import LibreCaslonTextBold from './fonts/Libre_Caslon_Text/LibreCaslonText-Bold.ttf';
+import LibreCaslonTextItalic from './fonts/Libre_Caslon_Text/LibreCaslonText-Italic.ttf';
 
-//import Image Files
-import bgPage from "src/images/pagetexture_cleaned.png";
+// Import image files
+import pageTextureCleaned from './images/pagetexture_cleaned.png';
 
-//import json files
-import testCityList from "src/jsons/testArray.json";
+// Import JSON files
+import testArray from './jsons/testArray.json';
 
-//TODO: Add city list with just the names and longitudes work out how to re reset the date line?
-//TODO: am i picking the cities here in a function?
-
-
- //define objects to hold assets
- export const fonts = {
-    sign: caslonDisplay,
-    reg: caslonReg,
-    bold: caslonBold,
-    italic: caslonItalic
+// Export the imported files
+export const fonts = {
+  sign: LibreCaslonDisplayRegular,
+  text: {
+    regular: LibreCaslonTextRegular,
+    bold: LibreCaslonTextBold,
+    italic: LibreCaslonTextItalic
+  }
 };
 
 export const images = {
-    bg: bgPage
+  bg: pageTextureCleaned
 };
 
 export const jsons = {
-    testCityList: testCityList
+  testCityList: testArray
 };
